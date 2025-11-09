@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+#Himg1{
+  scroll-margin-top: 200px; 
+
+  display: block;
+  margin: 100px auto 0; 
+  width: 180px; 
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Htext1{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: #333;
+  margin-top: 60px;
+}
+.Htext2{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 55px;
+  color: #104E5C;
+  margin-top: -40px;
+}
+.Htext3{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: #104E5C;
+  margin-top: 20px;
+}
+.Htext4{
+
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-size: 30px; */
+  color: #104E5C;
+  margin-top: 210px;
+
+
+}
+.OMcontainer {
+  background-color: #e6e6e6;
+  color: #1f2937;
+  padding: 3rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.OMcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.OMtext1 {
+  flex: 2;
+  line-height: 1.6;
+  margin-left: -250px;
+}
+
+#OMtitle1 {
+  color: #1f4d6e;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+
+.OMprofile1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.OMimg1 {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.OMfacts1 {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.OMfactsTitle1 {
+  color: #1f4d6e;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.OMfact1,
+.OMfact2,
+.OMfact3,
+.OMfact4 {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
