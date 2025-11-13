@@ -139,7 +139,6 @@ html {
   scrollbar-color: #ffffff #ffffff;
 }
 
-
 .skillCard {
   flex: 0 0 250px;
   height: 250px;
@@ -209,7 +208,7 @@ html {
 .Psection {
   background-color: #e6e6e6;
   padding: 4rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #1f2937;
 }
 
@@ -232,11 +231,12 @@ html {
 .Psection {
   background-color: #e6e6e6;
   padding: 4rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #1f2937;
 }
 
 #PmainTitle {
+  scroll-margin-top: 4rem;
   text-align: left;
   font-size: 1.3rem;
   font-weight: 600;
@@ -252,7 +252,6 @@ html {
   justify-items: center;
 }
 
-/* 🔹 ProjectCard styling */
 .Pcard {
   background-color: #cfd8dc;
   border-radius: 20px;
@@ -293,7 +292,6 @@ html {
   margin-bottom: 1rem;
 }
 
-/* 🔹 Buttons */
 .Pbtns {
   display: flex;
   justify-content: center;
@@ -316,22 +314,23 @@ html {
 }
 /* contact section///////////////// */
 .Csection {
-  background-color: #e6e6e6;
+  background-color: #ffffff;
   padding: 4rem 2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #1f2937;
   min-height: 90vh;
 }
 
-.Ctitle {
+#Ctitle {
+  scroll-margin-top: 8rem;
   text-align: center;
   font-size: 2rem;
   color: #1f4d6e;
   font-weight: 500;
   margin-bottom: 3rem;
+  margin-top: 5%;
 }
 
-/* 🧭 Layout */
 .Ccontainer {
   display: flex;
   justify-content: center;
@@ -339,7 +338,6 @@ html {
   gap: 3rem;
 }
 
-/* 📩 Formulier */
 .Cform {
   background: white;
   border: 2px solid #1f4d6e;
@@ -389,7 +387,6 @@ html {
   background-color: #1f4d6e;
 }
 
-/* 📇 Info-sectie */
 .Cinfo {
   display: flex;
   flex-direction: column;
@@ -409,19 +406,24 @@ html {
   color: #1f4d6e;
 }
 
-/* 🟢 Beschikbaarheid */
 .Cavailable {
   color: green;
   font-weight: 600;
 }
-
-/* 🔗 Social media */
+.Cimg {
+  height: 20px;
+  width: 20px;
+}
 .Csocials {
   display: flex;
   gap: 1rem;
+  height: 20px;
+  width: 20px;
 }
 
 .Cicon {
+  height: 20px;
+  width: 20px;
   font-size: 1.4rem;
   text-decoration: none;
   transition: transform 0.2s ease;
@@ -429,4 +431,6 @@ html {
 
 .Cicon:hover {
   transform: scale(1.1);
+  height: 20px;
+  width: 20px;
 }
