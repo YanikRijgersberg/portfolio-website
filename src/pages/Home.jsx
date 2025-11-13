@@ -94,6 +94,7 @@ const Home = () => {
           <SkillCard
             name="PHP"
             color="#6c63a6"
+            textColor="#000"
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
           />
           <SkillCard
@@ -105,16 +106,19 @@ const Home = () => {
           <SkillCard
             name="HTML / CSS"
             color="#e44d26"
+            textColor="#000"
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
           />
           <SkillCard
             name="Tailwind CSS"
             color="#38bdf8"
+            textColor="#000"
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
           />
           <SkillCard
             name="TypeScript"
             color="#3178c6"
+            textColor="#000"
             img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
           />
           <SkillCard
