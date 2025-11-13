@@ -16,17 +16,14 @@ const Home = () => {
 
     emailjs
       .sendForm(
-        "service_e8dk3z6", 
-        "template_wuo06vl", 
+        "service_e8dk3z6",
+        "template_wuo06vl",
         form.current,
-        "PI4LjA-SfB-6uqREp" 
+        "PI4LjA-SfB-6uqREp"
       )
-      .then(
-        (result) => {
-         
-          e.target.reset();
-        },
-      );
+      .then((result) => {
+        e.target.reset();
+      });
   };
 
   return (
@@ -66,10 +63,18 @@ const Home = () => {
             <img src={OMimg2} alt="Profielfoto" className="OMimg1" />
             <div className="OMfacts1">
               <h3 className="OMfactsTitle1">Snelle feiten</h3>
-              <p><strong>Locatie:</strong> Nederland</p>
-              <p><strong>Ervaring:</strong> 1 jaar</p>
-              <p><strong>Focus:</strong> front-end development</p>
-              <p><strong>Beschikbaarheid:</strong> Beschikbaar voor stage</p>
+              <p>
+                <strong>Locatie:</strong> Nederland
+              </p>
+              <p>
+                <strong>Ervaring:</strong> 1 jaar
+              </p>
+              <p>
+                <strong>Focus:</strong> front-end development
+              </p>
+              <p>
+                <strong>Beschikbaarheid:</strong> Beschikbaar voor stage
+              </p>
             </div>
           </div>
         </div>
@@ -80,20 +85,44 @@ const Home = () => {
         <h2 className="skillsTitle">skills</h2>
 
         <div className="skillsScrollContainer">
-          <SkillCard name="JavaScript" color="#f7df1e" textColor="#000"
-            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-          <SkillCard name="PHP" color="#6c63a6"
-            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-          <SkillCard name="React" color="#2f9cb9ff" textColor="#000"
-            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-          <SkillCard name="HTML / CSS" color="#e44d26"
-            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-          <SkillCard name="Tailwind CSS" color="#38bdf8"
-            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-          <SkillCard name="TypeScript" color="#3178c6"
-            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-          <SkillCard name="React Native" color="#2f9cb9ff" textColor="#000"
-            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+          <SkillCard
+            name="JavaScript"
+            color="#f7df1e"
+            textColor="#000"
+            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          />
+          <SkillCard
+            name="PHP"
+            color="#6c63a6"
+            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+          />
+          <SkillCard
+            name="React"
+            color="#2f9cb9ff"
+            textColor="#000"
+            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          />
+          <SkillCard
+            name="HTML / CSS"
+            color="#e44d26"
+            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          />
+          <SkillCard
+            name="Tailwind CSS"
+            color="#38bdf8"
+            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+          />
+          <SkillCard
+            name="TypeScript"
+            color="#3178c6"
+            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          />
+          <SkillCard
+            name="React Native"
+            color="#2f9cb9ff"
+            textColor="#000"
+            img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          />
         </div>
 
         <div className="extraSkillsBox">
@@ -113,29 +142,43 @@ const Home = () => {
         <h2 id="PmainTitle">projecten</h2>
 
         <div className="Pgrid">
-          <ProjectCard title="PHP CRUD bread company"
-            description="Voor de Bread Company maakte ik een CRUD-website met login en registratie, een adminpaneel en klantoverzicht."
-            image="../src/assets/img/project404img.jpg"
-            github="" demo="#" />
+          <ProjectCard
+            title="Random Outfit Generator"
+            description="Een webproject gemaakt met HTML, CSS en JavaScript dat willekeurige outfits samenstelt uit vooraf ingestelde kledingstukken.
+                          De gebruiker kan met één klik een nieuwe combinatie genereren, waardoor elke outfit uniek is.
+                          De site heeft een mobielvriendelijk ontwerp, zodat hij ook op de telefoon soepel werkt — ideaal om snel outfitinspiratie op te doen."
+            image="../src/assets/img/Screenshot 2025-11-13 125724.png"
+            github="https://github.com/YanikRijgersberg/radom-kleding"
+            demo="https://yanikrijgersberg.github.io/radom-kleding"
+          />
 
-          <ProjectCard title="Portfolio website"
-            description="Mijn persoonlijke portfolio gebouwd met React en Tailwind CSS."
-            image="../src/assets/img/project404img.jpg"
-            github="#" demo="#" />
+          <ProjectCard
+            title="piem"
+            description="piem"
+            image="../src/assets/img/undercon.png"
+            github="#"
+            demo="#"
+          />
 
-          <ProjectCard title="Weather App"
-            description="Een simpele React-app die actuele weerinformatie toont via de OpenWeather API."
-            image="../src/assets/img/project404img.jpg"
-            github="#" demo="#" />
+          <ProjectCard
+            title="peim"
+            description="peim"
+            image="../src/assets/img/undercon.png"
+            github="#"
+            demo="#"
+          />
 
-          <ProjectCard title="Kleding Organizer App"
-            description="Een mobiele app in React Native waarmee gebruikers hun kleding kunnen organiseren."
-            image="../src/assets/img/project404img.jpg"
-            github="#" demo="#" />
+          <ProjectCard
+            title="poem"
+            description="poem"
+            image="../src/assets/img/undercon.png"
+            github="#"
+            demo="#"
+          />
         </div>
       </section>
 
-      {/* Contact Section */}
+      {/* Contact Section///////////////////////////////////////////////////////// */}
       <section id="contact" className="Csection">
         <h2 id="Ctitle">neem contact met mij op</h2>
 
@@ -144,13 +187,23 @@ const Home = () => {
             <h3 className="CformTitle">Stuur me een bericht</h3>
 
             <label>Naam</label>
-            <input type="text" name="user_name" placeholder="Jouw naam" required />
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Jouw naam"
+              required
+            />
 
             <label>Email</label>
-            <input type="email" name="user_email" placeholder="jouw.email@example.com" required />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="jouw.email@example.com"
+              required
+            />
 
             <label>Bericht</label>
-            <textarea name="message" placeholder="Vertel me over je project..." required />
+            <textarea name="message" placeholder="Work with me..." required />
 
             <button type="submit" className="Cbtn">
               Verstuur bericht
@@ -162,26 +215,71 @@ const Home = () => {
           <div className="Cinfo">
             <div className="Ccard">
               <h4>Contact informatie</h4>
-              <p><strong>Email:</strong> Rijgje1@gmail.com</p>
-              <p><strong>Telefoon:</strong> +31 6 24499250</p>
-              <p><strong>Locatie:</strong> Nederland</p>
+              <p>
+                <strong>Email:</strong> Rijgje1@gmail.com
+              </p>
+              <p>
+                <strong>Telefoon:</strong> +31 6 24499250
+              </p>
+              <p>
+                <strong>Locatie:</strong> Nederland
+              </p>
             </div>
 
             <div className="Ccard">
               <h4>Social Media</h4>
               <div className="Csocials">
-                <a href="https://github.com/YanikRijgersberg" target="_blank" rel="noopener noreferrer" className="Cicon"><img className="Cimg" src="../src/assets/img/github-icon-1-logo-black-and-white.png" alt="github" /></a>
-                <a href="https://www.linkedin.com/in/yaník-rijgersberg-437979398" target="_blank" rel="noopener noreferrer" className="Cicon"><img className="Cimg" src="../src/assets/img/linkedin-icon-logo-png-transparent.png" alt="linkdin" /></a>
-                <a href="https://www.instagram.com/rijgje" target="_blank" rel="noopener noreferrer" className="Cicon"><img className="Cimg" src="../src/assets/img/three-dimensional-instagram-icon-social-software-likes_494359_wh1200.png" alt="instagram" /></a>
-                
+                <a
+                  href="https://github.com/YanikRijgersberg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="Cicon"
+                >
+                  <img
+                    className="Cimg"
+                    src="../src/assets/img/github-icon-1-logo-black-and-white.png"
+                    alt="github"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/yaník-rijgersberg-437979398"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="Cicon"
+                >
+                  <img
+                    className="Cimg"
+                    src="../src/assets/img/linkedin-icon-logo-png-transparent.png"
+                    alt="linkdin"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/rijgje"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="Cicon"
+                >
+                  <img
+                    className="Cimg"
+                    src="../src/assets/img/three-dimensional-instagram-icon-social-software-likes_494359_wh1200.png"
+                    alt="instagram"
+                  />
+                </a>
               </div>
             </div>
 
             <div className="Ccard">
               <h4>Beschikbaarheid</h4>
-              <p><strong>Status:</strong> <span className="Cavailable">Beschikbaar</span></p>
-              <p><strong>Reactietijd:</strong> Binnen 48 uur</p>
-              <p><strong>Tijdzone:</strong> CET (UTC+1)</p>
+              <p>
+                <strong>Status:</strong>{" "}
+                <span className="Cavailable">Beschikbaar</span>
+              </p>
+              <p>
+                <strong>Reactietijd:</strong> Binnen 48 uur
+              </p>
+              <p>
+                <strong>Tijdzone:</strong> CET (UTC+1)
+              </p>
             </div>
           </div>
         </div>
