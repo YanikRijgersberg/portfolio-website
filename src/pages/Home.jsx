@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import "../css/App.css";
 import hiccup from "../assets/img/hiccup.png";
@@ -6,6 +6,11 @@ import OMimg2 from "../assets/img/OM-pfp-port.jpg";
 import SkillCard from "../components/SkillCard.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
 import emailjs from "emailjs-com";
+import undercon from "../assets/img/undercon2.png";
+import project1 from "../assets/img/Screenshot 2025-11-13 125724.png";
+import linkin from "../assets/img/linkedin-icon-logo-png-transparent.png";
+import github from "../assets/img/github-icon-1-logo-black-and-white.png";
+import instagram from "../assets/img/three-dimensional-instagram-icon-social-software-likes_494359_wh1200.png";
 
 const Home = () => {
   const form = useRef();
@@ -151,7 +156,7 @@ const Home = () => {
             description="Een webproject gemaakt met HTML, CSS en JavaScript dat willekeurige outfits samenstelt uit vooraf ingestelde kledingstukken.
                           De gebruiker kan met één klik een nieuwe combinatie genereren, waardoor elke outfit uniek is.
                           De site heeft een mobielvriendelijk ontwerp, zodat hij ook op de telefoon soepel werkt — ideaal om snel outfitinspiratie op te doen."
-            image="../src/assets/img/Screenshot 2025-11-13 125724.png"
+            image={project1}
             github="https://github.com/YanikRijgersberg/radom-kleding"
             demo="https://yanikrijgersberg.github.io/radom-kleding"
           />
@@ -159,7 +164,7 @@ const Home = () => {
           <ProjectCard
             title="piem"
             description="piem"
-            image="../src/assets/img/undercon.png"
+            image={undercon}
             github="#"
             demo="#"
           />
@@ -167,7 +172,7 @@ const Home = () => {
           <ProjectCard
             title="peim"
             description="peim"
-            image="../src/assets/img/undercon.png"
+            image={undercon}
             github="#"
             demo="#"
           />
@@ -175,7 +180,7 @@ const Home = () => {
           <ProjectCard
             title="poem"
             description="poem"
-            image="../src/assets/img/undercon.png"
+            image={undercon}
             github="#"
             demo="#"
           />
@@ -241,7 +246,7 @@ const Home = () => {
                 >
                   <img
                     className="Cimg"
-                    src="../src/assets/img/github-icon-1-logo-black-and-white.png"
+                    src={github}
                     alt="github"
                   />
                 </a>
@@ -253,7 +258,7 @@ const Home = () => {
                 >
                   <img
                     className="Cimg"
-                    src="../src/assets/img/linkedin-icon-logo-png-transparent.png"
+                    src={linkin}
                     alt="linkdin"
                   />
                 </a>
@@ -265,7 +270,7 @@ const Home = () => {
                 >
                   <img
                     className="Cimg"
-                    src="../src/assets/img/three-dimensional-instagram-icon-social-software-likes_494359_wh1200.png"
+                    src={instagram}
                     alt="instagram"
                   />
                 </a>

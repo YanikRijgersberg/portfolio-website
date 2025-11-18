@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      // Deze code herleidt de 404-pagina naar de root van de app
+      // zodat React Router de correcte route kan bepalen.
+      sessionStorage.redirect = location.href;
+      window.location.replace(location.protocol + '//' + location.host + '/portfolio-website/');
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
