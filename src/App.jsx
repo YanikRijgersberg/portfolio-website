@@ -3,7 +3,10 @@ import Home from "../src/pages/Home.jsx";
 import "./css/App.css";
 function App() {
   return (
+<<<<<<< Updated upstream
     <BrowserRouter basename="/portfolio-website">
+=======
+>>>>>>> Stashed changes
       <Routes>
         <Route index element={<Home />} />
 
