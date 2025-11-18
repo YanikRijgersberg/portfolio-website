@@ -1,16 +1,16 @@
 {
+  "homepage": "https://YanikRijgersberg.github.io/portfolio-website",
   "name": "portfolio-website",
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yanikrijgersberg.github.io/portfolio-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist --no-history --add"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
