@@ -6,6 +6,7 @@ function App() {
 <<<<<<< Updated upstream
     <BrowserRouter basename="/portfolio-website">
 =======
+    <BrowserRouter basename="/portfolio-website/">
 >>>>>>> Stashed changes
       <Routes>
         <Route index element={<Home />} />
